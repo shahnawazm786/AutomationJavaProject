@@ -70,9 +70,7 @@ class FirstExampleClass {
 		b=4;
 		c=a%b;
 		System.out.println("Reminder is ->"+c);
-		
-		
-				
+		System.out.println("Pushed code successfully");
 	}
 
 }
