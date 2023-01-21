@@ -1,5 +1,8 @@
 package demo;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class PostPreOperationExampleClass {
 
 	public static void main(String[] args) {
@@ -19,6 +22,20 @@ public class PostPreOperationExampleClass {
 		res=a++;// assign the value into the container then the value of a is increased
 		System.out.println(res); // 100
 		System.out.println(a); // 101
+
+		Map<Integer,String> map=new HashMap<>();
+		map.put(100, "Math");
+		map.put(98, "Science");
+		map.put(99, "Physichs");
+		// String, Integer
+		map.put(100, "Social Studies"); // duplicate key in map
+		
+		System.out.println(map.get(100));
+		System.out.println(map.get(98));
+		
+		map.remove(99);
+		System.out.println(map.get(99));
+		
 
 	}
 
