@@ -39,6 +39,19 @@ public class MapInterfaceExample {
 		map.put(7, null);// newest will be overwrite by oldest  key
 		System.out.println("Print the map value after adding null value");
 		System.out.println(map);
+		map.put(8, null);// newest will be overwrite by oldest  key
+		System.out.println("Print the map value after adding null value one more times");
+		System.out.println(map);
+		map.put(null, "Pune");// newest will be overwrite by oldest  key
+		System.out.println("Print the map value after adding null key one more times");
+		System.out.println(map);
+		
+		map.remove(2);
+		System.out.println("Print the map value after removing key 2");
+		System.out.println(map);
+		
+		int size=map.size();
+		System.out.println("Size of map -> "+size);
 		
 	}
 
