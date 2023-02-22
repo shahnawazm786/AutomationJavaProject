@@ -18,7 +18,27 @@ public class MapInterfaceExample {
 		System.out.println(val);
 		System.out.println("Print the map value");
 		System.out.println(map);
+		// iterate one by one value
+		for(Map.Entry m : map.entrySet())
+		{
+			System.out.println("Key\t -> " + m.getKey());
+			System.out.println("Value \t -> "+m.getValue());
+		}
+		map.put(null, "Java");
+		System.out.println("Print the map value");
+		System.out.println(map);
 		
+		map.put(6, "Delhi");
+		System.out.println("Print the map value after adding duplicate value");
+		System.out.println(map);
+		
+		map.put(2, "Hydrabad");// newest will be overwrite by oldest  key
+		System.out.println("Print the map value after adding duplicate key");
+		System.out.println(map);
+		
+		map.put(7, null);// newest will be overwrite by oldest  key
+		System.out.println("Print the map value after adding null value");
+		System.out.println(map);
 		
 	}
 
