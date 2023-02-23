@@ -22,5 +22,17 @@ public class FileOperationExamples {
 			ex.printStackTrace();
 		}
 	}
+	public static void readingStringFromFile() {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		try {
+			FileReader fr=new FileReader("c:/files/demo.txt"); // checked exception
 
+			fr.close();
+			System.out.println("Writing completed successfully.....");
+		}catch(IOException ex) {
+			ex.printStackTrace();
+		}
+
+	}
 }
