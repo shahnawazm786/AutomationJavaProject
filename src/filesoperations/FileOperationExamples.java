@@ -33,7 +33,7 @@ public class FileOperationExamples {
 				System.out.print((char)position);
 			}
 			fr.close();
-			System.out.println("Writing completed successfully.....");
+			System.out.println("\nReading done successfully.....");
 		}catch(IOException ex) {
 			ex.printStackTrace();
 		}
