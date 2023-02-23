@@ -27,6 +27,7 @@ public class FileInputStreamExample {
 		reader.close();
 		}catch(IOException ex) {
 			ex.printStackTrace();
+			
 		}
 	}
 	static void writingByteIntoFile() {
