@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class FileOperationExamples {
 
 	public static void main(String[] args) {
-		writingStringIntoFile();
-
+		//writingStringIntoFile();
+		readingStringFromFile();
 	}
 	public static void writingStringIntoFile() {
 		// TODO Auto-generated method stub
