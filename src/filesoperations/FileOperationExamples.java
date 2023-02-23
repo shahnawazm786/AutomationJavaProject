@@ -27,7 +27,11 @@ public class FileOperationExamples {
 		Scanner sc=new Scanner(System.in);
 		try {
 			FileReader fr=new FileReader("c:/files/demo.txt"); // checked exception
-
+			int position;
+			while((position=fr.read())!=-1) // -1 represent here end of file
+			{
+				System.out.print((char)position);
+			}
 			fr.close();
 			System.out.println("Writing completed successfully.....");
 		}catch(IOException ex) {
