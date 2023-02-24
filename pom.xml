@@ -3,6 +3,9 @@
   <groupId>Project_01</groupId>
   <artifactId>Project_01</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+  </dependencies>
   
   <build>
     <sourceDirectory>src</sourceDirectory>
