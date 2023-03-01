@@ -55,6 +55,7 @@ public class FindElementExample {
 		driver.manage().deleteAllCookies();
 		//driver.close(); close all the browser which is opened in current session
 		driver.quit(); // the current one browser where your control is 
+		
 	}
 
 }
