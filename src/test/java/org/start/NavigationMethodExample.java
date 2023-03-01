@@ -23,6 +23,8 @@ public class NavigationMethodExample {
 		String url=driver.getCurrentUrl();
 		System.out.println(url);
 		
+		
+		
 	}
 
 }

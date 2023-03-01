@@ -16,6 +16,7 @@ public class ImplicitWaitExample {
 		driver.get("https://www.orangehrm.com/");
 		driver.close();// reset connection exception
 		
+		
 	}
 
 }
