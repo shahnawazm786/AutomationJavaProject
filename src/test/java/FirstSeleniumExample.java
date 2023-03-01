@@ -13,6 +13,7 @@ public class FirstSeleniumExample {
 		System.out.println(tile);
 		Thread.sleep(2000);
 		driver.close();
+		
 	}
 
 }
