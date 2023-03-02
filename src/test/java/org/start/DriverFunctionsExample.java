@@ -29,7 +29,8 @@ public class DriverFunctionsExample {
 		}catch(Exception ex) {
 			driver.close();
 		}*/
-		driver.close();
+		//driver.close();
+		driver.quit();
 		
 	}
 
